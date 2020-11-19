@@ -1,0 +1,27 @@
+
+h2{color:blue;
+   background:yellow;
+ }
+#lohith{
+ 	color:red;
+ 	background-color:green;
+ }
+.kumar{
+ 	text-align: center;
+}
+*{
+	text-align: center;
+}
+p,h5,h4,table{
+	background-color: aqua;
+}
+.parent{
+	background-color: lightpink;
+	margin:5%;
+	display:flex;
+}
+.child{
+	background-color:aqua;
+	padding:2%;
+	margin:4%;
+}
