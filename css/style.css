@@ -19,9 +19,18 @@ p,h5,h4,table{
 	background-color: lightpink;
 	margin:5%;
 	display:flex;
+	/*flex direction :row-reverse;*/
+	justify-content: center;
 }
 .child{
 	background-color:aqua;
 	padding:2%;
 	margin:4%;
+}
+.or{
+	margin:5%;
+	display:flex;
+	/*flex direction :row-reverse;*/
+	justify-content: center;
+
 }

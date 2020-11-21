@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+ <link rel="icon" href="wano4.jpg">
+ <title>Profile Cards</title>
+  <style type="text/css">
+  .profile{
+   display: flex;
+   width: 100%;
+   border: 6px solid blue;
+   padding: 3%;
+   margin: 1%;
+  }
+  .profile>div{
+   padding: 1%;
+   margin: 3%;
+   width: 40%;
+   height:70%;
+   border : 2px solid maroon;
+   text-align: center;
+   box-shadow: 10px 20px 30px 10px;
+  }
+  img{
+   border-radius: 10%;
+   border:3px solid maroon;
+  }
+  button{
+   box-shadow: 2px 2px 2px 2px;
+   color: maroon;
+   width: 50%;
+  }
+   a{
+   text-decoration: none;
+  }
+  .copy{
+ text-align: center;
+ color: blue;
+ background-color:maroon;
+ width: 100%;
+ padding: 1%;
+ margin: 1%;
+}
+  @media only screen and (min-width:320px) and (max-width: 480px){
+   .profile{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+   }
+   .profile>div{
+    width: 90%;
+
+   }
+   }
+
+/* Tab View*/
+@media only screen and (min-width:481px) and (max-width: 768px){
+ body{
+  color: blue;
+ }
+   .profile{
+
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100%;
+    /*flex-wrap: wrap;*/
+   }
+   .profile>div{
+    width: 90%;
+
+   }
+   }
+
+@media only screen and (min-width:769px) and (max-width: 1024px){
+ body{
+  color: blue;
+ }
+   .profile{
+
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    /*flex-wrap: wrap;*/
+   }
+   .profile>div{
+    width: 90%;
+    background-color: yellow;
+
+   }
+   }
+
+ </style>
+</head>
+<body>
+	<div class="profile">
+ <div class="card">
+ 	<img src="wano4.jpg" width="100%" height="70%" alt="another">
+  <h1  style="color:maroon">luffytaro de gozaru!!</h1>
+  <hr>
+  <h4>wano </h4>
+   <button><a href="#">View</a></button>
+ </div>
+ <div class="card">
+ 	<img src="wano4.jpg" width="100%" height="70%" alt="another">
+  <h1  style="color:maroon">luffytaro de gozaru!!</h1>
+  <hr>
+  <h4>wano </h4>
+   <button><a href="#">View</a></button>
+ </div>
+ <div class="card">
+ 	<img src="wano4.jpg" width="100%" height="70%" alt="another">
+  <h1  style="color:maroon">luffytaro de gozaru!!</h1>
+  <hr>
+  <h4>wano </h4>
+   <button><a href="#">View</a></button>
+ </div>
+</div>
+<!-- Footer -->
+<div class="copy">
+ <h1> All Copy Rights Reviced By apssdc</h1>
+
+</body>
+</html>
